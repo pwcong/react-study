@@ -1,0 +1,25 @@
+:local .root{
+	
+	text-align: center;
+	width: 350px;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px 1px grey;
+	margin: 20px;
+}
+
+:local .root img{
+	max-width: 80%;
+	border-radius: 2px;
+}
+
+:local .root p{
+	width: 100%;
+}
+
+:local .root p span{
+	width: 30%;
+	text-align: right;
+}
+
+

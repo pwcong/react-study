@@ -1,0 +1,22 @@
+:local .root{
+
+	width: 100%;
+	text-align: center;
+
+}
+
+:local .root img{
+	max-width: 40%;
+	border-radius: 2px;
+}
+
+:local .root p{
+	width: 100%;
+}
+
+:local .root p span{
+	width: 30%;
+	text-align: right;
+}
+
+

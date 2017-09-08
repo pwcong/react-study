@@ -1,0 +1,22 @@
+:local .root{
+	width: 100%;
+}
+
+:local .root-top{
+	width: 100%;
+}
+
+:local .root-bottom{
+
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+:local .root-bottom a{
+	text-decoration: none;
+	color: black;
+}

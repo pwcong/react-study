@@ -1,0 +1,35 @@
+:local .container{
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background-color: #232323;
+}
+
+:local .brand{
+	color: white;
+	margin-left: 20px;
+	margin-top: 0px;
+	line-height: 60px;
+}
+
+:local .menulist{
+	position: absolute;
+	top: 0px;
+	right: 20px;
+	list-style: none;
+}
+
+:local .menuitem{
+	float: left;
+}
+
+:local .menuitem a{
+	padding: 25px;
+	color: white;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+
+:local .menuitem a:hover{
+	background-color: orange;
+}

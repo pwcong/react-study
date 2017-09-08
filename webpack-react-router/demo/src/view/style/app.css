@@ -1,0 +1,13 @@
+:global *{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+:global body{
+	font-family: 'Microsoft YaHei', sans-serif
+}
+
+:local .root{
+	width: 100%;
+}

@@ -1,0 +1,79 @@
+:local .root{
+
+	padding: 20px;
+
+	width: 100%;
+
+	border: 1px solid grey;
+
+	transition: border 0.4s;
+
+}
+
+:local .root:hover{
+	border: 1px solid orange;
+}
+
+:local .root-tips{
+	font-size: 28px;
+	color: orange;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+:local .root-main{
+	width: 100%;
+}
+
+:local .root-main-top{
+	width: 100%;
+}
+:local .root-main-top div{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+:local .root-main-top div p{
+	min-width: 100px;
+	text-align: right;
+}
+
+:local .root-main-top div input{
+	margin-left: 20px;
+}
+
+:local .root-main-bottom{
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+:local .root-main-bottom button{
+
+	width: 100px;
+	height: 40px;
+	
+	border-style: none;
+
+	border: 1px solid grey;
+
+	border-radius: 5px;
+
+	transition: background-color 0.4s;
+}
+
+:local .root-main-bottom button:hover{
+	background-color: orange;
+}
+
+:local .root-main-bottom button:active{
+
+	background-color: #FFF300;
+
+}

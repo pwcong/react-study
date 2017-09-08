@@ -1,0 +1,113 @@
+:local .root{
+
+	min-width: 400px;
+
+	padding: 20px;
+
+	width: 100%;
+
+	border-radius: 5px;
+	border: 1px solid grey;
+	transition: border 0.4s;
+
+}
+
+:local .root:hover{
+
+	border: 1px solid orange;
+
+}
+
+:local .root-top{
+
+	width: 100%;
+
+	display: flex;
+
+	align-items: center;
+
+	flex-flow: row wrap;
+
+}
+
+:local .root-bottom{
+	width: 100%;
+
+	display: flex;
+
+	margin-top: 20px;
+
+	justify-content: center;
+	align-items: center;
+
+	flex-flow: row wrap;
+}
+
+:local .root-top-left{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 200px;
+	margin-left: 50px;
+
+}
+
+:local .root-top-left img{
+	height: 180px;
+	width: 180px;
+	border-radius: 90px;
+	margin-bottom: 20px;
+}
+
+:local .root-top-right{
+	flex: 1;
+	text-align: center;
+}
+
+
+:local .root-top-right div{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+:local .root-top-right p{
+
+	width: 20%;
+
+	min-width: 100px;
+
+	text-align: right;
+}
+
+:local .root-top-right input{
+	margin-left: 20px;
+}
+
+
+:local .root-bottom button{
+
+	margin: 10px;
+
+	width: 100px;
+	height: 40px;
+	
+	border-style: none;
+
+	border: 1px solid grey;
+
+	border-radius: 5px;
+
+	transition: background-color 0.4s;
+}
+
+:local .root-bottom button:hover{
+	background-color: orange;
+}
+
+:local .root-bottom button button:active{
+
+	background-color: #FFF300;
+
+}
